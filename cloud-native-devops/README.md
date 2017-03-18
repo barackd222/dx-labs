@@ -19,7 +19,18 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 - Create Agile Board and initial Sprint
 - Add Issues to Sprint
 
-## Lab 300: Cloud Native Rapid Javascript Devlopment with node.js
+## Lab 200: Continuous Delivery of Java Microservices
+
+**Documenation**: [CloudNative200.md](CloudNative200.md)
+
+### Objectives
+
+- Access Developer Cloud Service
+- Import Code from external Git Repository
+- Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service
+- Add API to API Platform Service
+
+## Lab 300: Cloud Native Rapid Javascript Devlopment with node.js (Optionally)
 
 **Documentation**: [CloudNative300.md](CloudNative300.md)
 

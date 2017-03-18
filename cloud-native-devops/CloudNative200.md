@@ -4,8 +4,6 @@ This is the second of several labs that are part of the **Developer Experience w
 
 In the first lab (100), the Project Manager created a new project in the Developer Cloud Service and created and assigned tasks to the developers of this application. In this lab you will assume the persona of the Java developer, who will be tasked with creating several microservices that will supply data to any front-end or analytics applications (one of which you will build in the following lab, lab 300).
 
-Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
-
 ## Objectives
 
 - Access Developer Cloud Service
@@ -287,5 +285,43 @@ We have now verified that the statictweets microservice has been deployed and fu
 
     ![](images/200/Picture49.png)  
 
+# Add an API to API Platform
+	
+## Create an API
+	
+### **STEP 10**: Login Into API Manager Portal
+	
+### **STEP 11**: Create New API
+	
+### **STEP 11**: Define Resource Path
+	
+### **STEP 11**: Define End Point
+	
+### **STEP 12**: Publish API
+	
+## Deploy an API
+	
+### **STEP 12**: Deploy to Gateway
+	
+### **STEP 12**: Define Grants
+	
+# Consume an API from API Platform
+	
+## Create an Application
+	
+### **STEP 10**: Login Into Application Developer Portal
+	
+### **STEP 10**: Create New Application
+	
+## Register an API (to the Application)
+
+### **STEP 10**: Register API to Application
+	
+## Test the API
+
+### **STEP 10**: Note API Key
+	
+### **STEP 10**: Test API
+	
 - You are now done with this lab.
 
