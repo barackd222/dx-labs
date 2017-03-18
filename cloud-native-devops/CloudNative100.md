@@ -1,27 +1,19 @@
-
-![](images/100/Picture100-lab.png)  
-Update: February 10, 2017
-
 ## Introduction
 
-This is the first of several labs that are part of the **Oracle Public Cloud DevOps Cloud Native Microservices workshop.** This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
+This is the first of several labs that are part of the **Developer Experience workshop.** This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
 
 You will take on 3 Personas during the workshop. The **Project Manager Persona** will create the projects, add tasks and features to be worked on, and assign tasks to developers.  The Project Manager will then start the initial sprint. The Java Developer persona will develop a new twitter feed service that will allow for retrieval and filtering of twitter data. The **JavaScript Developer** persona will develop a new Twitter Marketing UI that will display the twitter data to allow for analysis.  During the workshop, you will get exposure to Oracle Developer Cloud Service and Oracle Application Container Cloud Service.
-
-Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 ## Objectives
 - Create Initial Project
     - Add Users to Project
 - Create Product Issues
-    - Create Issues for Twitter Feed Microservice
     - Create Issues for Twitter Feed Marketing UI
 - Create Agile Board and initial Sprint
 - Add Issues to Sprint
 
 ## Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
-
 
 # Create Twitter Feed Marketing Project
 
@@ -35,13 +27,13 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
     ![](images/100/Picture100-1.png)
 
-- **IMPORTANT** - Under my services, select from the drop down list the correct data center and click on **My Services**. If you are unsure of the data center you should select, and this is an in-person training event, ***ask your instructor*** which **Region** to select from the drop down list. If you received your account through an Oracle Trial, your Trial confirmation email should provide a URL that will pre-select the region for you. (During XWeeks all accounts are in *us2* data center)
+- **IMPORTANT** - Under my services, select from the drop down list the correct data center and click on **My Services**. If you are unsure of the data center you should select, and this is an in-person training event, ***ask your instructor*** which **Region** to select from the drop down list. If you received your account through an Oracle Trial, your Trial confirmation email should provide a URL that will pre-select the region for you.
 
     ![](images/100/Picture100-2.png)
 
 - Enter your identity domain and click **Go**.
 
-    **NOTE:** The **Identity Domain, User Name** and **Password** values will be given to you by the instructor or Trial confirmation email. (Take DEVCS_DOMAIN value)
+    **NOTE:** The **Identity Domain, User Name** and **Password** values will be given to you by the instructor.
 
     ![](images/100/Picture100-3.png)
 
@@ -129,63 +121,13 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/100/Picture100-13.png)
 
-
+**IF THIS FAILS, THEN YOU MAY NEED TO DELETE A PREVIOUS PROJECT. ASK YOUR INSTRUCTOR FOR ASSISTANCE**
 
 # Create Product Issues
 
 ## Create Issues for Twitter Feed Microservice
 
-### **STEP 5**: Create Issue for the initial GIT Repository Creation
-
-In this step you are still assuming the identity of the Project Manager, ***Lisa Jones***.
-
-![](images/lisa.png)
-
-- Click **Issues** on left hand navigation panel to display the Track Issues page.
-
-    ![](images/100/Picture100-16.png)
-
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
-
-    **Note:** Throughout the lab you will assign your own account as the “physical” owner of the issue, but for the sake of this workshop, **Bala Gupta** will be the “logical” owner of the following issues.
-
-    ![](images/bala.png)
-
-    **Summary:**
-    `Create Initial GIT Repository for Twitter Feed Service`
-
-    **Description:**
-    `Create Initial GIT Repository for Twitter Feed Service`
-
-    **Type:** `Task`
-
-    **Owner:** `Select your account provided in the dropdown [Logical Owner: Bala Gupta]`
-
-    **Story Points:** `1`
-
-    Note: Story point is an arbitrary measure used by Scrum teams. They are used to measure the effort required to implement a story. This [Site](https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/) will provide more information. 
-
-    ![](images/100/Picture100-17.png)
-
-### **STEP 6**: Create Issue for Update Twitter Credentials
-
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
-
-    ![](images/bala.png)
-
-    **Summary:** `Create Filter on Twitter Feed`
-
-    **Description:** `Create Filter to allow user to supply text to reduce the amount of data returned by the Twitter feed`
-
-    **Type:** `Feature`
-
-    **Owner:** `Select your account provided in the dropdown [Logical Owner: Bala Gupta]`
-
-    **Story Points:** `2`
-
-    ![](images/100/Picture100-18.png)
-
-### **STEP 7**: Create Issue for initial GIT Repository creation
+### **STEP 5**: Create Issue for initial GIT Repository creation
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**. Note: The next two issues will logically be owned by John Dunbar.
 
@@ -203,7 +145,7 @@ In this step you are still assuming the identity of the Project Manager, ***Lisa
 
     ![](images/100/Picture100-19.png)
 
-### **STEP 8**: Create Issue for Displaying Twitter Feed
+### **STEP 6**: Create Issue for Displaying Twitter Feed
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
 
@@ -242,7 +184,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 - **Active Sprints view** – Lists all active Sprints of the Board and enables you to update an Issue status simply by dragging and dropping it to the respective status columns.
 - **Reports view** – select the Burndown Chart tab to display the amount of work left to do in a Sprint or use the Sprint Report tab to list open and completed Issues of a Sprint.
 
-### **STEP 9**: Create Agile Board
+### **STEP 7**: Create Agile Board
 
 - Click **Agile** on the Left Side Menu to display a page listing all existing Boards
 
@@ -256,7 +198,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
     ![](images/100/Picture100-24.png)
 
-### **STEP 10**: Create Sprint
+### **STEP 8**: Create Sprint
 - We will now create our first Sprint. Click **New Sprint**. Enter the following data and click **OK.**
 
     **Name:** `Sprint 1 - Initial Development`
@@ -265,7 +207,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
     ![](images/100/Picture100-25.png)
 
-### **STEP 11**:	Add Backlog Issues to Sprint
+### **STEP 9**:	Add Backlog Issues to Sprint
 
 - Next, we want to add the backlog issues to the newly created spring. **Drag and drop** the **4 issues** one at a time upward onto the **Sprint 1** section. This will add the issues to the sprint.
 
@@ -275,7 +217,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
 ## Customize Agile Board
 
-### **STEP 12**: Customize Board
+### **STEP 10**: Customize Board
 
 In the following step you will customize an Agile Board, and add a new Progress State. If you desire more information about States and Conditions, the following link will provide a tutorial: http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/developer/AgileDevelopment/AgileDevelopment.html
 
@@ -305,7 +247,7 @@ In the following step you will customize an Agile Board, and add a new Progress 
 
     ![](images/100/Picture100-33.png)
 
-### **STEP 13**: Start Sprint
+### **STEP 11**: Start Sprint
 
 - Click the **Start Sprint** button.
 

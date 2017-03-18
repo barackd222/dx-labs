@@ -1,6 +1,5 @@
-## Deploy complex cloud environment using Oracle Cloud Stack Manager ##
+## Introduction
 
-### About this tutorial ###
 Oracle Cloud Stack Manager is a feature of Oracle Cloud that allows for the provisioning of multiple services within the Oracle Cloud. In order to build and deploy their applications, businesses often require sophisticated environments that consist of multiple, integrated cloud services. Consider a development environment whose needs include a Java application server along with a relational database. Provisioning each of these services for every member of your development team is time consuming and error prone, regardless of whether you’re using service consoles or REST APIs to provision the services. Oracle Cloud Stack Manager uses templates to provision a group of services (called a stack) and in the correct order.
 
 In this tutorial you will learn how to quickly provision a group of related Oracle Cloud resources with Oracle Cloud Stack Manager.
@@ -32,6 +31,7 @@ This tutorial demonstrates how to:
 #### Create Oracle Developer Cloud Service project ####
 
 Sign in to [https://cloud.oracle.com/sign-in](https://cloud.oracle.com/sign-in). First select your datacenter then click **My Services** and provide your identity domain and credentials (use DEVCS_DOMAIN, DEVCS_USER, DEVCS_PWD). After a successful login you will see your Dashboard. Find the Developer services tile and click the hamburger icon. In the dropdown menu click **Open Service Console** to open Oracle Developer Cloud Services console.
+
 ![](images/01.dashboard.png)
 
 Click **+ New Project** button to create a new project.
@@ -51,6 +51,8 @@ Click **Next** and on the Properties page select *MARKDOWN* as Wiki Markup and s
 ![](images/05.import.repository.png)
 
 Now click **Finish** to create the project and to clone the specified repository.
+
+**IF THIS FAILS, THEN YOU MAY NEED TO DELETE A PREVIOUS PROJECT. ASK YOUR INSTRUCTOR FOR ASSISTANCE**
 
 ### Configure build job to produce FixItFast sample application's components ###
 
