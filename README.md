@@ -23,10 +23,10 @@ These will be provided by your instructor.
 
 ----
 ### Lab 1 ###
-+ [Cloud Native DevOps workshop](cloud-native-devops/README.md)
++ [Create a simple micro-service](cloud-native-devops/README.md)
 
 ### Lab 2 ###
-+ [Create a simple application](stack/README.md)
++ [Create a simple online application](stack/README.md)
 
 ### Lab 3 ###
 + [Create a workflow application](pcs/README.md)
