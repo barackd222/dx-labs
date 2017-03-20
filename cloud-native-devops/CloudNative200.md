@@ -20,7 +20,7 @@ In the first lab (100), the Project Manager created a new project in the Develop
 
 ### **STEP 1**: Review Agile Board
 
-- This Lab assumes that you just completed Lab 100 and are still connected to the Oracle Cloud, that you're still in the Developer cloud Service Dashboard, and you're viewing the "Twitter Feed Marketing Project". If for some reason that is not the case, follow the first several Steps of Lab 100 to once again view the Developer Cloud Service Console.
+- This Lab assumes that you just completed Lab 100 and are still connected to the Oracle Cloud, that you're still in the Developer cloud Service Dashboard, and you're viewing the "Twitter Feed Marketing Project". If for some reason that is not the case, follow the first several steps of Lab 100 to once again view the Developer Cloud Service Console.
 
     ![](images/200/Picture10.5.png)  
 
@@ -171,7 +171,7 @@ Now that we have successfully built our project, we need to create a deployment 
 
     ![](images/200/Picture33.png)  
 
-- Enter the following data: (Use **ACCS_DOMAIN** here!!!!!)
+- Enter the following data:
 
   - **Data Center**: `<Your Assigned Datacenter>` ***(Ask instructor if needed)***
 
@@ -285,43 +285,4 @@ We have now verified that the statictweets microservice has been deployed and fu
 
     ![](images/200/Picture49.png)  
 
-# Add an API to API Platform
-	
-## Create an API
-	
-### **STEP 10**: Login Into API Manager Portal
-	
-### **STEP 11**: Create New API
-	
-### **STEP 11**: Define Resource Path
-	
-### **STEP 11**: Define End Point
-	
-### **STEP 12**: Publish API
-	
-## Deploy an API
-	
-### **STEP 12**: Deploy to Gateway
-	
-### **STEP 12**: Define Grants
-	
-# Consume an API from API Platform
-	
-## Create an Application
-	
-### **STEP 10**: Login Into Application Developer Portal
-	
-### **STEP 10**: Create New Application
-	
-## Register an API (to the Application)
-
-### **STEP 10**: Register API to Application
-	
-## Test the API
-
-### **STEP 10**: Note API Key
-	
-### **STEP 10**: Test API
-	
 - You are now done with this lab.
-

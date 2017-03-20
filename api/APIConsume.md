@@ -37,21 +37,43 @@ In this lab, you will be the **APP Developer**.
 
 ### **STEP 2**: Create a new application
 
+- You will be creating a new application to consume the API. First we need to focus on creating a new application. Click on the **My Applications** tab at the top of the page.
+
+    ![](images/api-create_api-001.png)
+
+- Create a new application. Click on the **New Application** button.
+	
     ![](images/api-create_app-007.png)
 
+- Complete the details of new application. Click on the **Apply** button (at the bottom).
+	
     ![](images/api-create_app-008.png)
 
+	After creating the application, you will see the newly created application.
+	
     ![](images/api-create_app-009.png)
 
 ### **STEP 3**: Register API with the newly created application
 
+- You will be now registering the application to use the API. Click on the **APIs** tab at the top of the page.
+
+    ![](images/api-create_api-001.png)
+
+- Hover over the API you created (it will highlight). Click on the API name.
+
     ![](images/api-create_app-002.png)
 
+- Click on the **Register** button.
+
     ![](images/api-create_app-003.png)
+
+- Select on the `Application` that you created.
 
     ![](images/api-create_app-004.png)
 	
 	Note the application key. This will be used and passed as an HTTP header in the request.
+	
+	And then click **Register API** button.
 
 ## Test the new API
 
@@ -62,9 +84,9 @@ In this lab, you will be the **APP Developer**.
 
     ![](images/api-create_app-010.png)
 
-- Need to open a REST client ie Postman, go to the API URL. Use the API Gateway details provided by the instructor and add a HTTP header apikey with the value from Step 3.
+- Need to open a REST client ie Postman, go to the API URL. Use the API Gateway details provided by the instructor and add a HTTP header **apikey** with the value from Step 3.
     eg. `https://apigw.oracle.com/<your API uri>`
 
-    ![](images/api-create_app-010.png)
+    ![](images/api-create_app-005.png)
 
 - You are now ready to move to the next lab.

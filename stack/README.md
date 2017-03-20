@@ -7,8 +7,6 @@ You will use Cloud Stack Manager and a custom Oracle stack template to provision
 
 The FixItFast Cloud Native Application requires the following services:
 
-- MySQL Database service for customer data
-- JavaSE (Spring Boot) REST service to access customer data persisted by MySQL Database service
 - NodeJS REST Service to persist FixItFast application's data
 - NodeJS Server to host front end (JavaScript) application
 
@@ -76,10 +74,10 @@ Change to the **Build Parameters** tab and select the **This build is parameteri
 
 When the details area appears enter the following values below. Note you need to click **Add Parameter** for each value-pair. In case of password parameter select **Password Parameter**.
 
-- **Type**:String Parameter, **Name**: STORAGE_USER, **Default Value**: your Oracle Public Cloud account's username (use ACCS_USER)
-- **Type**:Password Parameter, **Name**: STORAGE_PASSWORD, **Default Value**: your Oracle Public Cloud account's password (use ACCS_PWD)
+- **Type**:String Parameter, **Name**: STORAGE_USER, **Default Value**: your Oracle Public Cloud account's username
+- **Type**:Password Parameter, **Name**: STORAGE_PASSWORD, **Default Value**: your Oracle Public Cloud account's password
 - **Type**:String Parameter, **Name**: STORAGE_CONTAINER, **Default Value**: xweek
-- **Type**:String Parameter, **Name**: IDENTITY_DOMAIN, **Default Value**: your Oracle Public Cloud identity domain (use ACCS_DOMAIN)
+- **Type**:String Parameter, **Name**: IDENTITY_DOMAIN, **Default Value**: your Oracle Public Cloud identity domain
 
 When you have all the necessary parameters it should look similar like below, expect the default values. To give default values here is just an option, you can define the correct values when the build job will be started.
 
@@ -198,46 +196,6 @@ Open your favourite text editor and copy or enter the following content into a n
 	        default: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC99Kr9t7GE7IqRE6SSoqB1eNd7kFd5snU086io1/NGIt+/1tFzcNI3R7A2L5wJPkK8EYbOR5Z2cu+vzYsSRSZBVd76lqqln8K7HGazEx73wQuIXuTB7CzbBvf0sxO/33IF8N0iw2BKtVffbf205FPGQJVmQHmfJD8KWCFnrqGt8kD/goN+cLT1SJL6GDaypykxY0AoYhyPbbLAq7YkuptJt2j+fhTD4vyLXjZ2QjykMJVuz0YDfDl07xUbL1/mmIDqtImY5KWPeADBU1rqHD3WDaUvIrbRyHa9E0kT4e7IEwdqFVFABCbxIwcPCRgyAFfxsP9HS1G75zG7VpIeKbpD rsa-key-20161106204053"
 	        sensitive: true
 	    resources: 
-	      mysqlDB: 
-	        type: MySQLCS
-	        parameters: 
-	             serviceParameters: 
-	                serviceName: fixitMySQLDB
-	                serviceLevel: PAAS
-	                subscription: HOURLY
-	                serviceDescription: Customer Database for FixItFast application 
-	                serviceVersion: 5.7
-	                vmPublicKeyText: 
-	                    Fn::GetParam: publicKeyText                
-	                backupDestination: NONE
-	             componentParameters: 
-	                mysql: 
-	                  shape: oc3
-	                  mysqlUserName: root
-	                  mysqlUserPassword:
-	                    Fn::GetParam: adminPwd
-	      backendJavaApp: 
-	        type: apaas
-	        parameters: 
-	            name: backendJava
-	            runtime: java
-	            subscription: MONTHLY
-	            archiveURL:
-	                Fn::GetParam: appBackEndJavaURL
-	            deployment:
-	                memory: 2G
-	                instances: 1
-	                services: 
-	                      - 
-	                        identifier: MySQLBinding
-	                        name: 
-	                          Fn::GetAtt: 
-	                            - mysqlDB
-	                            - serviceName
-	                        type: MySQLCS
-	                        username: root
-	                        password:
-	                          Fn::GetParam: adminPwd
 	      backendNodeApp:
 	        type: apaas
 	        parameters: 
@@ -264,26 +222,23 @@ Open your favourite text editor and copy or enter the following content into a n
 	                services:
 	                environment:
 	                  {
-	                    "REST_FIXIT" :  { "Fn::GetAtt" : [ "backendNodeApp", "attributes.webURL.value" ] },
-	                    "REST_CUSTOMERS" :  { "Fn::GetAtt" : [ "backendJavaApp", "attributes.webURL.value" ] }
+	                    "REST_FIXIT" :  { "Fn::GetAtt" : [ "backendNodeApp", "attributes.webURL.value" ] }
 	                  }
 
 Please spend few minutes and try to understand this configuration format. Files that contain YAML documents can use any file extension but *.yaml* is a typical convention. The first line in the file identifies it as a YAML document by using 3 dashes.
 
-At the beginning you can find the Name, Version and Description of the template. The second part is for the parameters. There you can defined parameters which is necessary to create stack (services) using default values what you can override during stack creation. As you can see in this template we defined the artifacts location on the storage cloud container where the previous build job has uploaded. We also defined default username and password for MySQL Cloud Service database and public ssh key to access the underlaying container. In this tutorial it is not necessary to use ssh connection thus we don't provide the private pair of the public key defined in template.
+At the beginning you can find the Name, Version and Description of the template. The second part is for the parameters. There you can defined parameters which is necessary to create stack (services) using default values what you can override during stack creation. As you can see in this template we defined the artifacts location on the storage cloud container where the previous build job has uploaded. We defined default public ssh key to access the underlaying container. In this tutorial it is not necessary to use ssh connection thus we don't provide the private pair of the public key defined in template.
 
 The third main part is about the resources what are the service definitions. We have defined the following services:
 
-1. *mysqlDB* - MySQL Cloud Service
-2. *backendJavaApp* - Application Container Cloud Service hosting JavaSE depends on *mysqlDB*
-3. *backendNodeApp* - Application Container Cloud Service hosting NodeJS
-4. *clientApp* - Application Container Cloud Service hosting NodeJS depends on *backendNodeApp* and *backendJavaApp*
+1. *backendNodeApp* - Application Container Cloud Service hosting NodeJS
+2. *clientApp* - Application Container Cloud Service hosting NodeJS depends on *backendNodeApp* and *backendJavaApp*
 
-Please note the dependencies and how it's parameters dynamically defined. For example the *backendJavaApp* needs to get the MySQL Service connection string and credentials which is done by Service Bindings and parameter usage. Or the *clientApp* needs to know the REST endpoints of *backendNodeApp* and *backendJavaApp*. For more clear picture scroll up to the beginning of the this guide and review the FixItFast Cloud Native Application architecture.
+Please note the dependencies and how it's parameters dynamically defined. For example the *clientApp* needs to know the REST endpoints of *backendNodeApp*. For more clear picture scroll up to the beginning of the this guide and review the FixItFast Cloud Native Application architecture.
 
 ### Import custom Stack template to Oracle Cloud Stack Manager ###
 
-Open a new browser tab or window and use the [sign in](https://cloud.oracle.com/sign-in) page to access your dashboard again (USE ACCS DOMAIN CREDENTIALS - NOT DEVCS DOMAIN). Select your datacenter click **My Services** then provide your identity domain and credentials (if necessary, because in same browser SSO session should still alive). After a successful login you will see your Dashboard. Find the Application Container tile and click the hamburger icon. In the dropdown menu click **Open Service Console** to open Oracle Application Container Cloud Services console.
+Open a new browser tab or window and use the [sign in](https://cloud.oracle.com/sign-in) page to access your dashboard again. Select your datacenter click **My Services** then provide your identity domain and credentials (if necessary, because in same browser SSO session should still alive). After a successful login you will see your Dashboard. Find the Application Container tile and click the hamburger icon. In the dropdown menu click **Open Service Console** to open Oracle Application Container Cloud Services console.
 
 ![](images/21.accs.console.png)
 
@@ -330,7 +285,7 @@ To check the stack status by services go back to the **Stacks** page and click t
 
 ![](images/31.creating.stack.png)
 
-Using this page (click refresh icon after every few minutes) you can get information about the  status of services what are being created by this stack. Please note during the *fixitMySQLDB* creation the stack also started to create *backendNode* component because there is no dependency between them. But the *backendJava* and *client* components need to wait for *fixitMySQLDB* completion since they use that service. The longest part is the MySQL service creation which should not be longer than 15 minutes.
+Using this page (click refresh icon after every few minutes) you can get information about the  status of services what are being created by this stack.
 
 ![](images/32.stack.in.progress.png)
 
@@ -353,49 +308,5 @@ Leave the default credentials and click **Sign In**.
 Discover the FixItFast application.
 
 ![](images/37.fixitfast.dashboard.png)
-
-### Modify data directly in the MySQL Cloud Service database ###
-
-To check dependencies the last task in this lab is to modify data directly in the database and check changes using FixItFast application.
-
-First check the customer list using FixItFast application. Click on the menu icon what can be found in the top left corner. In the navigation menu select **Customers**
-
-![](images/38.fixitfast.open.customer.png)
-
-Note the first customer's name. In this demo it is *Bob Smith*. You will update this name to confirm backend dependency.
-
-![](images/39.customers.png)
-
-Go back to the Application Container Cloud Console page find the *backendJava* application and open it's URL.
-
-![](images/40.backendjava.url.png)
-
-The *backendJava* application's home page is displayed. basically this components just provides REST access to customer data persisted in MySQL Cloud Service database. So these pages are just for demo purposes. Click **MySQL database query/update** link.
-
-![](images/41.mysql.app.png)
-
-Using this page you can modify any customer data. The default values for connection string and credentials are populated from service bindings so do not change those values. The only thing what is missing the SQL statement for update. Enter or copy the following DML statement: 
-	
-	update customers set firstname='Bobby' where firstname='Bob'
-
-Click **Execute**.
-
-![](images/42.update.stmt.png)
-
-As a result you can see the statement what you have entered and the number which shows how many rows were affected. It has to be 1. 
-
-![](images/43.update.result.png)
-
-To refresh customer list go to the FixItFast application and click the menu icon at the top left corner and select e.g. **Incidents**.
-
-![](images/44.go.back.incidents.png)
-
-Now go back to the customer list using the menu icon again.
-
-![](images/38.fixitfast.open.customer.png)
-
-In the customer list you have to see the updated name: **Bobby Smith**
-
-![](images/45.updated.customer.png)
 
 Congratulations! You have completed the Oracle Cloud Stack lab.

@@ -574,4 +574,3 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
     ![](images/300/image105.5.png)
 
 - You are now ready to move to the next lab.
-

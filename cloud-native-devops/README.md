@@ -21,14 +21,21 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 
 ## Lab 200: Continuous Delivery of Java Microservices
 
-**Documenation**: [CloudNative200.md](CloudNative200.md)
+**Documentation**: [CloudNative200.md](CloudNative200.md)
 
 ### Objectives
 
 - Access Developer Cloud Service
 - Import Code from external Git Repository
 - Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service
-- Add API to API Platform Service
+
+**Documentation**: [README.md](../api/README.md)
+
+### Objectives
+
+- Create the API in API Platform Cloud Service
+- Manage the API in API Platform Cloud Service
+- Consume the API in API Platform Cloud Service
 
 ## Lab 300: Cloud Native Rapid Javascript Devlopment with node.js (Optionally)
 
@@ -40,8 +47,9 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 - Import Code from external Git Repository
 - Import Project into Brackets
 - Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service
+- Add API to API Platform Cloud Service (same as Lab 200)
 
-## Lab 400:  Cloud Native Develper Cloud Service Administration
+## Lab 400:  Cloud Native Developer Cloud Service Administration
 
 **Documentation**: [CloudNative400.md](CloudNative400.md)
 
