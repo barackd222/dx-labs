@@ -23,13 +23,17 @@ These will be provided by your instructor.
 
 #### Brackets ####
 
-On the USB provided there are installations of the IDE used in this lab called **brackets**. It has a basic IDE with git integration. There are installation files available for brackets and git (windows only). In addition, there is a portable version of brackets already installed.
+On the USB provided there are installations of the IDE used in this lab called **brackets**. It has a basic IDE with git integration. There are installation files available for brackets and git (windows only).
 
-If you wish to use the portable brackets and you haven't installed git before, then brackets will not find git.
+In addition, there is a portable version of brackets. Follow the next steps if you want to use the portable version.
+
+##### **STEP 1:** Unzip DX-portable.zip
+
+- Unzip the `DX-portable.zip` file in the current directory.
 
 ##### **STEP 1:** Start Brackets
 
-- You can find the portable version of brackets in `DX\brackets-portable` directory.
+- You can find the portable version of brackets in `DX-portable\brackets-portable` directory.
 
 - Start `BracketsPortable.exe`
 
@@ -40,7 +44,7 @@ If you wish to use the portable brackets and you haven't installed git before, t
     ![](common/images/brackets-install-001.png)
 
 - Configure the path to git to be full path including the filename.
-    eg. `D:\projects\DX\git-portable\bin\git.exe`
+    eg. `D:\projects\DX-portable\git-portable\bin\git.exe`
 
     ![](common/images/brackets-install-002.png)
 
