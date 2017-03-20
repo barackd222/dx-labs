@@ -28,7 +28,7 @@ These will be provided by your instructor.
 ### Lab 2 ###
 + [Create a simple online application](stack/README.md)
 
-### Lab 3 ###
+### Lab 3 ### *** IN-PROGRESS
 + [Create a workflow application](pcs/README.md)
 
 
