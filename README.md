@@ -27,13 +27,13 @@ On the USB provided there are installations of the IDE used in this lab called *
 
 If you wish to use the portable brackets and you haven't installed git before, then brackets will not find git.
 
-##### ** STEP 1: ** Start Brackets
+##### **STEP 1:** Start Brackets
 
 - You can find the portable version of brackets in `DX\Installations\brackets-portable` directory.
 
 - Start `BracketsPortable.exe`
 
-##### ** STEP 2: ** Configure git
+##### **STEP 2:** Configure git
 
 - Open the Git Settings menu (under File)
 
