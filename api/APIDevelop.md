@@ -70,8 +70,9 @@ In this lab, you will be the **API Developer**.
 
 - Complete the configuration details of the `API Request`. Then click on the **Apply** button.
 
-	**API Endpoint URL:** `myfeed_<Initials>`
+	**API Endpoint URL:** `proxy/myfeed_<Initials>`
 		- Please use your initials in the name to denote your API. (This is a common environment).
+		- We are proxying the environment and the `proxy` path is **IMPORTANT**
 
 	![](images/api-create_api-006.png)
 
