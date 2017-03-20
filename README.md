@@ -29,7 +29,7 @@ If you wish to use the portable brackets and you haven't installed git before, t
 
 ##### **STEP 1:** Start Brackets
 
-- You can find the portable version of brackets in `DX\Installations\brackets-portable` directory.
+- You can find the portable version of brackets in `DX\brackets-portable` directory.
 
 - Start `BracketsPortable.exe`
 
@@ -40,7 +40,7 @@ If you wish to use the portable brackets and you haven't installed git before, t
     ![](common/images/brackets-install-001.png)
 
 - Configure the path to git to be full path including the filename.
-    eg. `D:\projects\DX\Installations\git-portable\GitPortable-master\GitPortable\App\Git\bin\git.exe`
+    eg. `D:\projects\DX\git-portable\bin\git.exe`
 
     ![](common/images/brackets-install-002.png)
 
