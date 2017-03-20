@@ -11,7 +11,7 @@ This is repository that contains labs material for Speed To Value Developer Expe
 
 ----
 
-#### BEFORE YOU START
+### BEFORE YOU START
 
 Please collect following data - we will use these details during the labs so please collect following:
 
@@ -20,6 +20,33 @@ Please collect following data - we will use these details during the labs so ple
 + Password - belongs to *cloud.admin* 
 
 These will be provided by your instructor.
+
+#### Brackets ####
+
+On the USB provided there are installations of the IDE used in this lab called **brackets**. It has a basic IDE with git integration. There are installation files available for brackets and git (windows only). In addition, there is a portable version of brackets already installed.
+
+If you wish to use the portable brackets and you haven't installed git before, then brackets will not find git.
+
+##### ** STEP 1: ** Start Brackets
+
+- You can find the portable version of brackets in `DX\Installations\brackets-portable` directory.
+
+- Start `BracketsPortable.exe`
+
+##### ** STEP 2: ** Configure git
+
+- Open the Git Settings menu (under File)
+
+    ![](common/images/brackets-install-001.png)
+
+- Configure the path to git to be full path including the filename.
+    eg. `D:\projects\DX\Installations\git-portable\GitPortable-master\GitPortable\App\Git\bin\git.exe`
+
+    ![](common/images/brackets-install-002.png)
+
+    After restarting brackets, it should look like this.
+    
+    ![](common/images/brackets-install-003.png)
 
 ----
 ### Lab 1 ###
