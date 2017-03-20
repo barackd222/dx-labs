@@ -8,7 +8,7 @@ These labs will walk you through the API econonmy of Cloud Native projects, duri
 
 ## Lab 100: Develop the API
 
-**Documentation**: [APIDev.md](APIDev.md)
+**Documentation**: [APIDevelop.md](APIDevelop.md)
 
 ### Objectives
 
