@@ -237,11 +237,7 @@ Now that we have successfully deployed the build artifact to the Application Con
 
 ### **STEP 8**: Login to Oracle Application Container Cloud Service 
 
-- Logout in the Cloud Console and login to ACCS_DOMAIN 
-
-    ![](images/200/Picture42.png)  
-
-- Once the Oracle Public Cloud **Dashboard** is displayed, click on the  
+- From the Oracle Public Cloud **Dashboard**, click on the  
 
     ![](images/200/PictureHamburger.png) menu to the right of the **Application Container** service. Then select **Open Service** Console
 

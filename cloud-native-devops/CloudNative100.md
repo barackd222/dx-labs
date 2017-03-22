@@ -163,7 +163,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/100/Picture100-20.png)
 
-- Click the back arrow ![](images/100/Picture100-21.png) on the **left side** of the window, or click on the **Issues** menu option to view all newly created issues.
+- Click the back arrow on the **left side** of the window, or click on the **Issues** menu option to view all newly created issues.
 
     ![](images/100/Picture100-22.png)
 
