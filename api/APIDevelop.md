@@ -139,3 +139,5 @@ In this lab, you will be the **API Developer**.
 - Click on the **Publish to Portal** button.
 
 - You are now ready to move to the next lab.
+
+Return to [README.md](Lab 1.2) to continue the labs.

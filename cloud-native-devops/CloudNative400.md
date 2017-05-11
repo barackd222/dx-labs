@@ -100,3 +100,5 @@ In this lab, Lisa Jones (The Project Manager) will complete the Sprint and view 
     ![](images/400/image014.2.png)
 
 - You have now completed this lab
+
+Return to [../README.md] to continue the labs.

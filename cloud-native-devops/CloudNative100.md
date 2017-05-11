@@ -264,3 +264,5 @@ In the following step you will customize an Agile Board, and add a new Progress 
     ![](images/100/Picture100-36.png)
 
 - You are now ready to move to the next lab.
+
+Return to [../README.md](Lab 1.2) to continue the labs.

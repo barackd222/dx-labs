@@ -90,3 +90,5 @@ In this lab, you will be the **APP Developer**.
     ![](images/api-create_app-005.png)
 
 - You are now ready to move to the next lab.
+
+Return to [README.md](Lab 1.2) to continue the labs.

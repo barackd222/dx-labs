@@ -35,3 +35,5 @@ These labs will walk you through the API econonmy of Cloud Native projects, duri
 - Create an application (defining it in API Platform Cloud Service)
 - Register the API
 - Test the API (using Postman)
+
+Return to [../cloud-native-devops/CloudNative300.md](Lab 1.3) to continue the labs.

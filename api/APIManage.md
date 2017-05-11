@@ -85,3 +85,5 @@ In this lab, you will be the **API Manager**.
 	Note that this will bring you back to the `Deployments` tab and you will see the being deployed. Initially, you might see the count of `Waiting` APIs as `not zero`. This means that APIs are being deployed or undeployed. Eventually, the API will be deployed ready for testing.
 
 - You are now ready to move to the next lab.
+
+Return to [README.md](Lab 1.2) to continue the labs.

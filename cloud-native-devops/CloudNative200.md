@@ -282,3 +282,5 @@ We have now verified that the statictweets microservice has been deployed and fu
     ![](images/200/Picture49.png)  
 
 - You are now done with this lab.
+
+Return to [../api/README.md](Lab 1.3) to continue the labs.
