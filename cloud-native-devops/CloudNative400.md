@@ -101,4 +101,4 @@ In this lab, Lisa Jones (The Project Manager) will complete the Sprint and view 
 
 - You have now completed this lab
 
-Return to [README.md](README.md) to continue the labs.
+Return to [Main Lab Page](README.md) to continue the labs.
