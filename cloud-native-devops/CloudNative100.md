@@ -265,4 +265,4 @@ In the following step you will customize an Agile Board, and add a new Progress 
 
 - You are now ready to move to the next lab.
 
-Return to [Lab 1.2](../README.md) to continue the labs.
+Return to [Lab 1.2](CloudNative200.md) to continue the labs.
