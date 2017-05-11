@@ -62,4 +62,4 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 - Run Backlog and Sprint Reports
 - Review Administrative Tasks
 
-Return to [../README.md](Lab 2) to continue the labs.
+Return to [Lab 2](../README.md) to continue the labs.

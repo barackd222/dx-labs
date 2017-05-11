@@ -91,4 +91,4 @@ In this lab, you will be the **APP Developer**.
 
 - You are now ready to move to the next lab.
 
-Return to [README.md](Lab 1.2) to continue the labs.
+Return to [Lab 1.2](README.md) to continue the labs.

@@ -283,4 +283,4 @@ We have now verified that the statictweets microservice has been deployed and fu
 
 - You are now done with this lab.
 
-Return to [../api/README.md](Lab 1.3) to continue the labs.
+Return to [Lab 1.3](../api/README.md) to continue the labs.

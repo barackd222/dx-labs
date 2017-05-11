@@ -36,4 +36,4 @@ These labs will walk you through the API econonmy of Cloud Native projects, duri
 - Register the API
 - Test the API (using Postman)
 
-Return to [../cloud-native-devops/CloudNative300.md](Lab 1.3) to continue the labs.
+Return to [Lab 1.4](../cloud-native-devops/CloudNative300.md) to continue the labs.

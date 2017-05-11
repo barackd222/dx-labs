@@ -86,4 +86,4 @@ In this lab, you will be the **API Manager**.
 
 - You are now ready to move to the next lab.
 
-Return to [README.md](Lab 1.2) to continue the labs.
+Return to [Lab 1.2.3](APIConsume.md) to continue the labs.

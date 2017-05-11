@@ -575,4 +575,4 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
 - You are now ready to move to the next lab.
 
-Return to [../README.md](Lab 1.5) to continue the labs.
+Return to [Lab 1.5](../CloudNative400.md) to continue the labs.
