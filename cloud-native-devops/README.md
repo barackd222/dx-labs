@@ -6,7 +6,7 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 
 **Reference the following Lab Guides by opening their Documentation Files:**
 
-## Lab 100: Agile Project Management
+## Lab 1.1: Agile Project Management
 
 **Documentation**: [CloudNative100.md](CloudNative100.md)
 
@@ -19,7 +19,7 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 - Create Agile Board and initial Sprint
 - Add Issues to Sprint
 
-## Lab 200: Continuous Delivery of Java Microservices
+## Lab 1.2: Continuous Delivery of Java Microservices
 
 **Documentation**: [CloudNative200.md](CloudNative200.md)
 
@@ -29,6 +29,8 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 - Import Code from external Git Repository
 - Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service
 
+## Lab 1.3: Manage Your APIs
+
 **Documentation**: [README.md](../api/README.md)
 
 ### Objectives
@@ -37,7 +39,7 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 - Manage the API in API Platform Cloud Service
 - Consume the API in API Platform Cloud Service
 
-## Lab 300: Cloud Native Rapid Javascript Devlopment with node.js (Optionally)
+## Lab 1.4: Cloud Native Rapid Javascript Devlopment with node.js (Optionally)
 
 **Documentation**: [CloudNative300.md](CloudNative300.md)
 
@@ -49,7 +51,7 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 - Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service
 - Add API to API Platform Cloud Service (same as Lab 200)
 
-## Lab 400:  Cloud Native Developer Cloud Service Administration
+## Lab 1.5:  Cloud Native Developer Cloud Service Administration
 
 **Documentation**: [CloudNative400.md](CloudNative400.md)
 

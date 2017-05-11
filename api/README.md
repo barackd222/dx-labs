@@ -6,7 +6,7 @@ These labs will walk you through the API econonmy of Cloud Native projects, duri
 
 **Refer to the environment details provided by your instructor**
 
-## Lab 100: Develop the API
+## Lab 1.2.1: Develop the API
 
 **Documentation**: [APIDevelop.md](APIDevelop.md)
 
@@ -17,7 +17,7 @@ These labs will walk you through the API econonmy of Cloud Native projects, duri
 - Create API documentation
     - And publish it
 
-## Lab 200: Manage the API
+## Lab 1.2.2: Manage the API
 
 **Documentation**: [APIManage.md](APIManage.md)
 
@@ -26,7 +26,7 @@ These labs will walk you through the API econonmy of Cloud Native projects, duri
 - Grant access privileges to manage the API
 - Deploy the API
 
-## Lab 300: Consume the API
+## Lab 1.2.3: Consume the API
 
 **Documentation**: [APIConsume.md](APIConsume.md)
 

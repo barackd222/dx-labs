@@ -27,15 +27,17 @@ On the USB provided there are installations of the IDE used in this lab called *
 
 In addition, there is a portable version of brackets. Follow the next steps if you want to use the portable version.
 
-##### **STEP 1:** Unzip DX-portable.zip
+##### **STEP 1:** Install Brackets (portable)
 
-- Unzip the `DX-portable.zip` file in the current directory.
+- Install brackets `BracketsPortable_Release_1.8_English.paf.exe` in the `Installations\Brackets` directory.
 
-##### **STEP 1:** Start Brackets
+##### **STEP 2:** Install Git (portable)
 
-- You can find the portable version of brackets in `DX-portable\brackets-portable` directory.
+- Install brackets `PortableGit-2.12.0-64-bit.7z.exe` in the `Installations\Git` directory.
 
-- Start `BracketsPortable.exe`
+##### **STEP 3:** Start Brackets
+
+- Start `BracketsPortable.exe` where you installed Brackets
 
 ##### **STEP 2:** Configure git
 
@@ -43,7 +45,7 @@ In addition, there is a portable version of brackets. Follow the next steps if y
 
     ![](common/images/brackets-install-001.png)
 
-- Configure the path to git to be full path including the filename.
+- Configure the path to git to be full path including the filename `git.exe`.
     eg. `D:\projects\DX-portable\git-portable\bin\git.exe`
 
     ![](common/images/brackets-install-002.png)
@@ -58,10 +60,6 @@ In addition, there is a portable version of brackets. Follow the next steps if y
 
 ### Lab 2 ###
 + [Create a simple online application](stack/README.md)
-
-### Lab 3 ### *** IN-PROGRESS
-+ [Create a workflow application](pcs/README.md)
-
 
 ---
 
