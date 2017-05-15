@@ -31,4 +31,54 @@ In addition, there is a portable version of brackets. Follow the next steps if y
     
     ![](common/images/brackets-install-003.png)
 
+## Example Walkthroughs
+
+These are examples of how to Brackets with Git. Please ensure you follow the instructions as per the labs. You can use this section as a guide to navigate the IDE.
+
+### Clone Repository - To download the code (from a new folder)
+
+- In Windows Explorer, create a new directory (this is where the code will be downloaded to)
+
+- In Brackets, click on the `Clone` button.
+
+    ![](common/images/brackets-banner-101.png)
+
+- Add in the dx-labs git repository URL `https://github.com/barackd222/dx-labs` and clone.
+
+    ![](common/images/brackets-clone-001.png)
+
+### Commit Changes - To save the changes locally
+
+- In Brackets, you can see the changes to the local files.
+
+    ![](common/images/brackets-commit-001.png)
+
+- Select the files you want to commit.
+
+    ![](common/images/brackets-commit-002.png)
+
+- Add the comments to the commit.
+
+    ![](common/images/brackets-commit-003.png)
+
+### Push Changes - To synchronise the remote repository from the local repository
+
+- In Brackets, click on the `Push Repository` button.
+
+    ![](common/images/brackets-banner-003.png)
+
+- Use the default settings (and if required add your username and password to the details)
+
+    ![](common/images/brackets-push-001.png)
+
+### Pull Changes - To synchronise the local repository from the remote repository
+
+- In Brackets, click on the `Pull Repository` button.
+
+    ![](common/images/brackets-banner-002.png)
+
+- Use the default settings (and if required add your username and password to the details)
+
+    ![](common/images/brackets-pull-001.png)
+
 Return to the Main Page to start the labs [README.md](README.md)
