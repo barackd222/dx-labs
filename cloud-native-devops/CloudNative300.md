@@ -22,10 +22,6 @@ In the previous lab (200), the Java Developer (Bala Gupta) created several micro
 
 ### **STEP 1**: Review Agile Board
 
-- This Lab assumes that you completed Lab 100 and are still connected to the Oracle Cloud, that you're still in the Developer cloud Service Dashboard, and you're viewing the "Twitter Feed Marketing Project". If for some reason that is not the case, follow the first several Steps of Lab 100 to once again view the Developer Cloud Service Console.
-
-    ![](images/300/Picture10.5.png)  
-
 - Although you will remain connected to the Oracle Cloud using the user account you were provided, you are to take on the Persona of ***John Dunbar*** as you perform the following steps.
 
     ![](images/john.png)  
