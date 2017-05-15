@@ -456,22 +456,6 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
     ![](images/300/image102.png)
 
-- To complete the Sprint Feature, click on **Agile** in the Twitter Feed Marketing Project Dashboard. Then click on the **Active Sprints** button.
-
-    ![](images/300/image103.png)
-
-- Complete the feature request by Dragging and Dropping **Feature 4** (Display Twitter Feed in Table Format) from the **Verify** Column to the **Completed** Column.
-
-    ![](images/300/image104.png)
-
-- Set the Status to **VERIFIED – FIXED** and click **Next**.
-
-    ![](images/300/image105.png)
-
-- Enter '`' into the **Time Spent** field and click on **OK**.
-
-    ![](images/300/image105.5.png)
-
 - You are now ready to move to the next lab.
 
 Return to [Lab 1.5](CloudNative400.md) to continue the labs.
