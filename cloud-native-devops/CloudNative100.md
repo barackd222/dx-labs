@@ -17,7 +17,7 @@ You will take on 2 Personas during the workshop.  The **Project Manager Persona
 
 # Create Twitter Feed Marketing Project
 
-### **(as Project Manager Persona)**
+### **This section of the lab is normally executed by the Project Manager Persona**
 
 ## Create Developer Cloud Service Project
 
