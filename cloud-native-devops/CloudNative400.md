@@ -14,7 +14,9 @@ In this lab, (the Project Manager Persona) will complete the Sprint and view the
 ## Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
 
-# Close the Sprint (as Project Manager Persona)
+# Close the Sprint
+
+### **This section of the lab is executed by the Project Manager Persona**
 
 ## Connect to the Develop Cloud Service
 
@@ -62,7 +64,9 @@ In this lab, (the Project Manager Persona) will complete the Sprint and view the
 
     ![](images/400/image016.png)
 
-# Project Administrative Features (as Project Manager Persona)
+# Project Administrative Features
+
+### **This section of the lab is executed by the Project Manager Persona**
 
 ## Review Administrative Features
 

@@ -17,7 +17,9 @@ In the previous lab 1.2, the Java Developer created several microservices that p
 
 + [Install Local Environment - Brackets and Git](Brackets.md)
 
-# Create Initial Twitter Marketing UI Service (as Javascript Developer Persona)
+# Create Initial Twitter Marketing UI Service
+
+### **This section of the lab is executed by the Javascript Developer Persona**
 
 ## Create Initial Git Repository
 
@@ -330,7 +332,9 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
     ![](images/300/image073.png)
 
-# Create a new Branch and Commit Code (as Javascript Developer Persona)
+# Create a new Branch and Commit Code
+
+### **This section of the lab is executed by the Javascript Developer Persona**
 
 ## Create a Branch and Commit Code
 
@@ -364,7 +368,9 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
     ![](images/300/image081.png)
 
-# Initiate Merge Process (as Javascript Developer Persona)
+# Initiate Merge Process
+
+### **This section of the lab is executed by the Javascript Developer Persona**
 
 ## Create Merge Request
 
@@ -407,6 +413,8 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
     ![](images/300/image088.png)
 
 # Manage Merge Process (as Project Manager Persona)
+
+### **This section of the lab is executed by the Project Manager Persona**
 
 ## Merge the Branch
 

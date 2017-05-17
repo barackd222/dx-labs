@@ -17,7 +17,7 @@ You will take on 2 Personas during the workshop.  The **Project Manager Persona
 
 # Create Twitter Feed Marketing Project
 
-### **This section of the lab is normally executed by the Project Manager Persona**
+### **This section of the lab is executed by the Project Manager Persona**
 
 ## Create Developer Cloud Service Project
 
@@ -75,7 +75,8 @@ You will take on 2 Personas during the workshop.  The **Project Manager Persona
 **IF THIS FAILS, THEN YOU MAY NEED TO DELETE A PREVIOUS PROJECT. ASK YOUR INSTRUCTOR FOR ASSISTANCE**
 
 # Create Product Issues
-# (as Project Manager Persona)
+
+### **This section of the lab is executed by the Project Manager Persona**
 
 ## Create Issues for Twitter Feed Microservice
 
@@ -116,7 +117,8 @@ You will take on 2 Personas during the workshop.  The **Project Manager Persona
     ![](images/100/Picture100-22.png)
 
 # Create Agile Board
-# (as Project Manager Persona)
+
+### **This section of the lab is executed by the Project Manager Persona**
 
 ## Create Agile Board and Initial Sprint
 

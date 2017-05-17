@@ -14,7 +14,9 @@ In the previous lab, the Project Manager created a new project in the Developer 
 
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
 
-# Create Initial Static Twitter Feed Service (as Java Developer Persona)
+# Create Initial Static Twitter Feed Service
+
+### **This section of the lab is executed by the Java Developer Persona**
 
 ## Explore Developer Cloud Service
 
