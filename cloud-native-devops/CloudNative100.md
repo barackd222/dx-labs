@@ -2,7 +2,7 @@
 
 This is the first of several labs that are part of the **Developer Experience workshop.** This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
 
-You will take on 2 Personas during the workshop.  The **Project Manager Persona** will create the projects, add tasks and features to be worked on, and assign tasks to developers. The Project Manager will then start the initial sprint. The Java Developer persona will develop a new twitter feed service that will allow for retrieval and filtering of twitter data. During the workshop, you will get exposure to Oracle Developer Cloud Service and Oracle Application Container Cloud Service.
+You will take on 2 Personas during the workshop.  The Project Manager will create the projects, add tasks and features to be worked on, and assign tasks to developers. The Project Manager will also then start the initial sprint. The Java Developer persona will develop a new twitter feed service that will allow for retrieval and filtering of twitter data. During the workshop, you will get exposure to Oracle Developer Cloud Service and Oracle Application Container Cloud Service.
 
 ## Objectives
 - Create Initial Project
