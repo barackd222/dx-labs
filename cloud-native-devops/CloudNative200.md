@@ -2,7 +2,7 @@
 
 This is the second of several labs that are part of the **Developer Experience workshop.** This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
 
-In the first lab (100), the Project Manager created a new project in the Developer Cloud Service and created and assigned tasks to the developers of this application. In this lab you will assume the persona of the Java developer, who will be tasked with creating several microservices that will supply data to any front-end or analytics applications (one of which you will build in the following lab, lab 300).
+In the previous lab, the Project Manager created a new project in the Developer Cloud Service and created and assigned tasks to the developers of this application. In this lab you will assume the persona of the Java developer, who will be tasked with creating several microservices that will supply data to any front-end or analytics applications.
 
 ## Objectives
 
@@ -12,9 +12,9 @@ In the first lab (100), the Project Manager created a new project in the Develop
 
 ## Required Artifacts
 
-- The following lab requires an Oracle Public Cloud account that will be supplied by your instructor. You will need to download and install latest version of Eclipse. Instructions are found in the Student Guide.
+- The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
 
-# Create Initial Static Twitter Feed Service
+# Create Initial Static Twitter Feed Service (as Java Developer Persona)
 
 ## Explore Developer Cloud Service
 
@@ -24,9 +24,7 @@ In the first lab (100), the Project Manager created a new project in the Develop
 
     ![](images/200/Picture10.5.png)  
 
-- Although you will remain connected to the Oracle Cloud using the user account you were provided, you will take on the Persona of ***Bala Gupta*** as you perform the following steps.
-
-    ![](images/bala.png)  
+- Although you will remain connected to the Oracle Cloud using the user account you were provided, you will take on the Jave Developer Persona as you perform the following steps.
 
 - Within the **Twitter Feed Marketing Project**, click on **Agile** found on the left hand navigation.
 

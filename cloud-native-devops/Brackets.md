@@ -39,7 +39,11 @@ These are examples of how to Brackets with Git. Please ensure you follow the ins
 
 - In Windows Explorer, create a new directory (this is where the code will be downloaded to)
 
-- In Brackets, click on the `Clone` button.
+- In Brackets, click on the `File` menu and click `Open Folder`. Select the newly created directory.
+
+    ![](images/300/brackets-newfolder-001.png)
+
+- Click on the `Clone` button.
 
     ![](images/300/brackets-banner-101.png)
 

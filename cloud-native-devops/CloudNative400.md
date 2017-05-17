@@ -2,7 +2,7 @@
 
 This is the fourth of several labs that are part of the **Developer Experience workshop.** This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
 
-In this lab, Lisa Jones (The Project Manager) will complete the Sprint and view the Agile reports provided by the Oracle Developer Cloud Service
+In this lab, (the Project Manager Persona) will complete the Sprint and view the Agile reports provided by the Oracle Developer Cloud Service
 
 ## Objectives
 - Access Developer Cloud Service
@@ -14,17 +14,15 @@ In this lab, Lisa Jones (The Project Manager) will complete the Sprint and view 
 ## Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
 
-# Close the Sprint
+# Close the Sprint (as Project Manager Persona)
 
 ## Connect to the Develop Cloud Service
 
 ### **STEP 1**: Select the Agile Dashboard
 
-- This Lab assumes that you completed Lab 100, 200, and 300 and are still connected to the Oracle Cloud, that you're still in the Developer cloud Service Dashboard, and you're viewing the "Twitter Feed Marketing Project". If for some reason that is not the case, follow the first several Steps of Lab 100 to once again view the Developer Cloud Service Console.
+- This Lab assumes that you completed Lab 1.1 and 1.2 and are still connected to the Oracle Cloud, that you're still in the Developer cloud Service Dashboard, and you're viewing the "Twitter Feed Marketing Project". If for some reason that is not the case, follow the first several Steps of [Lab 1.1](CloudNative100.md) to once again view the Developer Cloud Service Console.
 
-- Although you will remain connected to the Oracle Cloud using the user account you were provided, you are to take on the Persona of ***Lisa Jones*** as you perform the following steps.
-
-    ![](images/lisa.png)  
+- Although you will remain connected to the Oracle Cloud using the user account you were provided, you are to take on the Project Manager Persona as you perform the following steps.
 
 - Click on **Agile** on the Microservice Board.
 
@@ -35,7 +33,6 @@ In this lab, Lisa Jones (The Project Manager) will complete the Sprint and view 
     ![](images/400/image003.png)
 
 - Click on the **Sprint Report**.
-
 
 ### **STEP 2**: Complete the Sprint
 
@@ -65,7 +62,7 @@ In this lab, Lisa Jones (The Project Manager) will complete the Sprint and view 
 
     ![](images/400/image016.png)
 
-# Project Administrative Features
+# Project Administrative Features (as Project Manager Persona)
 
 ## Review Administrative Features
 

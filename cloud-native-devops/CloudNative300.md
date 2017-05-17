@@ -2,7 +2,7 @@
 
 This is the third of several labs that are part of the **Developer Experience workshop.** This workshop will walk you through the Software DevelopLifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
 
-In the previous lab (200), the Java Developer (Bala Gupta) created several microservices that pull data from twitter and allow for dynamic filtering based on keywords. In this lab, you will assume the role of the front-end JavaScript developer who will create a web application that incorporates the data from those microservices. This node.js application will be developed in the Developer Cloud Service taking advantage of automated builds and deployments to the Application Container Cloud Service.
+In the previous lab 1.2, the Java Developer created several microservices that pull data from twitter and allow for dynamic filtering based on keywords. In this lab, you will assume the role of a front-end JavaScript developer who will create a web application that incorporates the data from those microservices. This node.js application will be developed in the Developer Cloud Service taking advantage of automated builds and deployments to the Application Container Cloud Service.
 
 ## Objectives
 
@@ -13,10 +13,11 @@ In the previous lab (200), the Java Developer (Bala Gupta) created several micro
 
 ## Required Artifacts
 
-- The following lab requires an Oracle Cloud account that will be supplied by your instructor. You will need to download and install latest version of the Brackets text editor.
+- The following lab requires an Oracle Cloud account that will be supplied by your instructor. You will need to download and install latest version of the Brackets text editor. The following instructions are provided to help with the instruction of Brackets and Git. If you have your own preferred IDE and / or you are comfortable with Git, you are welcome to use your own tools. 
 
++ [Install Local Environment - Brackets and Git](Brackets.md)
 
-# Create Initial Twitter Marketing UI Service
+# Create Initial Twitter Marketing UI Service (as Javascript Developer Persona)
 
 ## Create Initial Git Repository
 
@@ -169,17 +170,13 @@ Now that we have our default application we want to extend this application to a
 
 ### **STEP 6**:	Start Brackets Text Editor
 
-- Start **Brackets** text editor. How you start Brackets will depend on your OS. We have documented how to start Brackets from our OEL image.
+- In Windows Explorer, create a new directory (this is where the code will be downloaded to)
 
-***Note***: If you do not have Brackets installed, please follow the **Student Guide** that is part of this Workshop. You will find instruction on how to install Git and Configure Brackets.
+- Start **Brackets** text editor. How you start Brackets will depend on your OS.
 
-- Right click **Brackets** desktop icon and select **Open**
+- Click on the `File` menu and click `Open Folder`. Select the newly created directory.
 
-    ![](images/300/image052.png)  
-
-- Brackets should open with the **TwitterMarketingUI** folder already loaded.
-
-    ![](images/300/image053.2.png)  
+    ![](images/300/brackets-newfolder-001.png)
 
 ### **STEP 7**: Copy GIT URL
 
@@ -333,7 +330,7 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
     ![](images/300/image073.png)
 
-# Create a new Branch and Commit Code
+# Create a new Branch and Commit Code (as Javascript Developer Persona)
 
 ## Create a Branch and Commit Code
 
@@ -366,6 +363,8 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 - Once Git Push completes click **OK**.
 
     ![](images/300/image081.png)
+
+# Initiate Merge Process (as Javascript Developer Persona)
 
 ## Create Merge Request
 
@@ -407,14 +406,13 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 
     ![](images/300/image088.png)
 
-## Merge the Branch as Lisa Jones
+# Manage Merge Process (as Project Manager Persona)
 
+## Merge the Branch
 
 ### **STEP 15**: Merge Requests
 
-- In the following steps the logical persona “Lisa” will merge the branch created by “John” into the master.
-
-    ![](images/lisa.png)
+- In the following steps the Project Manager Persona will merge the branch created by the Javascript Developer into the master.
 
 - Click on **Merge Requests**. Select the **Assigned to Me** search. After the search completes, click on the **Merge Feature 4 into master** assigned request.
 
@@ -443,6 +441,8 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojtable'], function (oj, ko) {
 - Click on Deploy. Wait for the **Deploy** Status to change to **Deployment update in progress**, and then change to **Last deployment succeeded** – **Just now**.
 
     ![](images/300/image100.png)
+
+# Test the Change
 
 ## Test the JETFrontEndAPP UI in the Cloud
 

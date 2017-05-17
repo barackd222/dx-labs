@@ -26,10 +26,6 @@ These instructions are to help login into the Oracle Cloud Account. There is an 
 
 - Once your Identity Domain is set, enter your User Name and Password and click **Sign In**
 
-  **NOTE:** For this lab you will assume the role of Project Manager ***Lisa Jones***. Although you are assuming the identify of Lisa Jones, you will log into the account using the **username** provided to you by your instructor, given to you by your corporation, or supplied to you as part of an Oracle Trial. As you progress through the workshop, you will remain logged in as a single user, but you will make “logical” changes from Lisa Jones the Project Manager to other personas.
-
-    ![](images/lisa.png)
-
     ![](images/100/Picture100-3.5.png)
 
 - You will be presented with a Dashboard displaying the various cloud services available to this account.

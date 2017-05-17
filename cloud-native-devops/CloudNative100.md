@@ -2,7 +2,7 @@
 
 This is the first of several labs that are part of the **Developer Experience workshop.** This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
 
-You will take on 3 Personas during the workshop. The **Project Manager Persona** will create the projects, add tasks and features to be worked on, and assign tasks to developers.  The Project Manager will then start the initial sprint. The Java Developer persona will develop a new twitter feed service that will allow for retrieval and filtering of twitter data. The **JavaScript Developer** persona will develop a new Twitter Marketing UI that will display the twitter data to allow for analysis.  During the workshop, you will get exposure to Oracle Developer Cloud Service and Oracle Application Container Cloud Service.
+You will take on 2 Personas during the workshop.  The **Project Manager Persona** will create the projects, add tasks and features to be worked on, and assign tasks to developers. The Project Manager will then start the initial sprint. The Java Developer persona will develop a new twitter feed service that will allow for retrieval and filtering of twitter data. During the workshop, you will get exposure to Oracle Developer Cloud Service and Oracle Application Container Cloud Service.
 
 ## Objectives
 - Create Initial Project
@@ -15,7 +15,7 @@ You will take on 3 Personas during the workshop. The **Project Manager Persona*
 ## Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
 
-# Create Twitter Feed Marketing Project
+# Create Twitter Feed Marketing Project (as Project Manager Persona)
 
 ## Create Developer Cloud Service Project
 
@@ -35,10 +35,6 @@ You will take on 3 Personas during the workshop. The **Project Manager Persona*
     ![](images/100/Picture100-3.png)
 
 - Once your Identity Domain is set, enter your User Name and Password and click **Sign In**
-
-  **NOTE:** For this lab you will assume the role of Project Manager ***Lisa Jones***. Although you are assuming the identify of Lisa Jones, you will log into the account using the **username** provided to you by your instructor, given to you by your corporation, or supplied to you as part of an Oracle Trial. As you progress through the workshop, you will remain logged in as a single user, but you will make “logical” changes from Lisa Jones the Project Manager to other personas.
-
-    ![](images/lisa.png)
 
     ![](images/100/Picture100-3.5.png)
 
@@ -76,15 +72,13 @@ You will take on 3 Personas during the workshop. The **Project Manager Persona*
 
 **IF THIS FAILS, THEN YOU MAY NEED TO DELETE A PREVIOUS PROJECT. ASK YOUR INSTRUCTOR FOR ASSISTANCE**
 
-# Create Product Issues
+# Create Product Issues (as Project Manager Persona)
 
 ## Create Issues for Twitter Feed Microservice
 
 ### **STEP 3**: Create Issue for initial GIT Repository creation
 
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**. Note: The next two issues will logically be owned by John Dunbar.
-
-    ![](images/john.png)
+- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
 
     **Summary:** `Create Initial GIT Repository for Twitter Feed Marketing UI`
 
@@ -102,8 +96,6 @@ You will take on 3 Personas during the workshop. The **Project Manager Persona*
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
 
-    ![](images/john.png)
-
     **Summary:** `Display Twitter Feed in Table Format`
 
     **Description:** `Display Twitter Feed in Table Format`
@@ -120,7 +112,7 @@ You will take on 3 Personas during the workshop. The **Project Manager Persona*
 
     ![](images/100/Picture100-22.png)
 
-# Create Agile Board
+# Create Agile Board (as Project Manager Persona)
 
 ## Create Agile Board and Initial Sprint
 
