@@ -16,7 +16,7 @@ You will take on 2 Personas during the workshop.  The **Project Manager Persona
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
 
 # Create Twitter Feed Marketing Project
-# (as Project Manager Persona)
+**(as Project Manager Persona)**
 
 ## Create Developer Cloud Service Project
 
