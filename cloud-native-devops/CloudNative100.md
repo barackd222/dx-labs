@@ -19,20 +19,14 @@ You will take on 3 Personas during the workshop. The **Project Manager Persona*
 
 ## Create Developer Cloud Service Project
 
-### **STEP 1**: Login to your Oracle Cloud Account
+### **STEP 1 (Option 1) **: Login to your Oracle Cloud Account
 
-**IF YOU KNOW THE DIRECT URL TO YOUR DEVELOPER CLOUD, LOG IN USING THAT URL AND ADVANCE TO STEP 4**
+**IF YOU ARE USING YOUR OWN ENVIRONMENT AND YOU DO NOT HAVE A LINK TO DEVELOPER CLOUD - PLEASE FOLLOW THESE MORE DETAILED INSTRUCTIONS BEFORE CONTINUING THIS LAB [CloudLogin.md](CloudLogin.md)**
 
-- From any browser, go to the URL:
-    `https://cloud.oracle.com`
+### **STEP 1 (Option 2) **: Login directly to Developer Cloud Service
 
-- click **Sign In** in the upper right hand corner of the browser
-
-    ![](images/100/Picture100-1.png)
-
-- **IMPORTANT** - Under my services, select from the drop down list the correct data center and click on **My Services**. If you are unsure of the data center you should select, and this is an in-person training event, ***ask your instructor*** which **Region** to select from the drop down list. If you received your account through an Oracle Trial, your Trial confirmation email should provide a URL that will pre-select the region for you.
-
-    ![](images/100/Picture100-2.png)
+- From any browser, go to the URL provided by your instructor. It should look something like:
+    `https://developer.em2.oraclecloud.com/developer12345-iddomain1234`
 
 - Enter your identity domain and click **Go**.
 
@@ -48,51 +42,7 @@ You will take on 3 Personas during the workshop. The **Project Manager Persona*
 
     ![](images/100/Picture100-3.5.png)
 
-- You will be presented with a Dashboard displaying the various cloud services available to this account.
-
-    ![](images/100/Picture100-4.png)
-
-- If all your services are not visible, **click** on the **Customize Dashboard**, you can add services to the dashboard by clicking **Show.** For this workshop, you will want to ensure that you are showing at least the **Application Container, Developer and Storage** cloud services. If you do not want to see a specific service, click **Hide**
-
-    ![](images/100/Picture100-5.png)
-
-### **STEP 2**: Check/Set Storage Replication Policy
-
-Depending on the state of your Cloud Account, you may need to set the replication policy, if it has not been previously set. In this step you will got to the Storage Cloud Service to check on the status of the Replicaton Policy. 
-
-- Click on the **Storage** Cloud Service
-
-    ![](images/100/Picture-01.png)
-
-- If you see a message requesting that you **Set Replication Policy** as is shown below, click on the message. If the message is not displayed, your replicatin policy has already been set and you can continue to the next step by clicking on the **Dashboard** icon in the top right corner of the page.
-
-    ![](images/100/Picture-02.png)
-
-- Care must be taking when setting your replication policy, because it cannot be changed. With Trial accounts, the first option available will generatlly set the replication policy sufficient for this workshop, so we will take the Default, and click on the **Set** button. 
-
-    ![](images/100/Picture-03.png)
-
-- Click on the **Dashboard** button
-
-    ![](images/100/Picture-04.png)
-
-### **STEP 3**: Login to Developer Cloud Service
-
-Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes an issue tracking system, agile development dashboards, code versioning and review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
-
-- From the Cloud UI dashboard click on the **Developer** service. In our example, the Developer Cloud Service is named **developer99019**.
-
-    ![](images/100/Picture100-6.png)
-
-- The Service Details page gives you a quick glance of the service status overview.
-
-    ![](images/100/Picture100-7.png)
-
-- Click **Open Service Console** for the Oracle Developer Cloud Service. The Service Console will then list all projects for which you are currently a member.
-
-    ![](images/100/Picture100-7.5.png)
-
-### **STEP 4**: Create Developer Cloud Service Project
+### **STEP 2**: Create Developer Cloud Service Project
 
 - Click **New Project** to start the project create wizard.
 
@@ -130,7 +80,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ## Create Issues for Twitter Feed Microservice
 
-### **STEP 5**: Create Issue for initial GIT Repository creation
+### **STEP 3**: Create Issue for initial GIT Repository creation
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**. Note: The next two issues will logically be owned by John Dunbar.
 
@@ -148,7 +98,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/100/Picture100-19.png)
 
-### **STEP 6**: Create Issue for Displaying Twitter Feed
+### **STEP 4**: Create Issue for Displaying Twitter Feed
 
 - Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
 
@@ -187,7 +137,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 - **Active Sprints view** – Lists all active Sprints of the Board and enables you to update an Issue status simply by dragging and dropping it to the respective status columns.
 - **Reports view** – select the Burndown Chart tab to display the amount of work left to do in a Sprint or use the Sprint Report tab to list open and completed Issues of a Sprint.
 
-### **STEP 7**: Create Agile Board
+### **STEP 5**: Create Agile Board
 
 - Click **Agile** on the Left Side Menu to display a page listing all existing Boards
 
@@ -201,7 +151,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
     ![](images/100/Picture100-24.png)
 
-### **STEP 8**: Create Sprint
+### **STEP 6**: Create Sprint
 - We will now create our first Sprint. Click **New Sprint**. Enter the following data and click **OK.**
 
     **Name:** `Sprint 1 - Initial Development`
@@ -210,7 +160,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
     ![](images/100/Picture100-25.png)
 
-### **STEP 9**:	Add Backlog Issues to Sprint
+### **STEP 7**:	Add Backlog Issues to Sprint
 
 - Next, we want to add the backlog issues to the newly created spring. **Drag and drop** the **2 issues** one at a time upward onto the **Sprint 1** section. This will add the issues to the sprint.
 
@@ -220,7 +170,7 @@ Each Sprint lists issues that are added to it. The Backlog section (the last sec
 
 ## Customize Agile Board
 
-### **STEP 10**: Customize Board
+### **STEP 8**: Customize Board
 
 In the following step you will customize an Agile Board, and add a new Progress State. If you desire more information about States and Conditions, the following link will provide a tutorial: http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/developer/AgileDevelopment/AgileDevelopment.html
 
@@ -250,7 +200,7 @@ In the following step you will customize an Agile Board, and add a new Progress 
 
     ![](images/100/Picture100-33.png)
 
-### **STEP 11**: Start Sprint
+### **STEP 9**: Start Sprint
 
 - Click the **Start Sprint** button.
 

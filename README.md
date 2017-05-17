@@ -10,9 +10,6 @@ This is repository that contains labs material for Speed To Value Developer Expe
 + Please note that only a subset of ports are accessible through this network. Through practice 22/80/443/7001 are accessible. Anything else is block. If you need to access a different port, please connect through a third-party network.
 
 ----
-### Lab 0 ###
-+ [Install Local Environment - Brackets and Git](Brackets.md)
-
 ### Lab 1 ###
 + [Create a simple micro-service](cloud-native-devops/README.md)
 

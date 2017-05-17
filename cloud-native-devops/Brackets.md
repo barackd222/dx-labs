@@ -20,16 +20,16 @@ In addition, there is a portable version of brackets. Follow the next steps if y
 
 - Open the Git Settings menu (under File)
 
-    ![](common/images/brackets-install-001.png)
+    ![](images/300/brackets-install-001.png)
 
 - Configure the path to git to be full path including the filename `git.exe`.
     eg. `D:\projects\DX-portable\git-portable\bin\git.exe`
 
-    ![](common/images/brackets-install-002.png)
+    ![](images/300/brackets-install-002.png)
 
     After restarting brackets, it should look like this.
     
-    ![](common/images/brackets-install-003.png)
+    ![](images/300/brackets-install-003.png)
 
 ## Example Walkthroughs
 
@@ -41,44 +41,44 @@ These are examples of how to Brackets with Git. Please ensure you follow the ins
 
 - In Brackets, click on the `Clone` button.
 
-    ![](common/images/brackets-banner-101.png)
+    ![](images/300/brackets-banner-101.png)
 
 - Add in the dx-labs git repository URL `https://github.com/barackd222/dx-labs` and clone.
 
-    ![](common/images/brackets-clone-001.png)
+    ![](images/300/brackets-clone-001.png)
 
 ### Commit Changes - To save the changes locally
 
 - In Brackets, you can see the changes to the local files.
 
-    ![](common/images/brackets-commit-001.png)
+    ![](images/300/brackets-commit-001.png)
 
 - Select the files you want to commit.
 
-    ![](common/images/brackets-commit-002.png)
+    ![](images/300/brackets-commit-002.png)
 
 - Add the comments to the commit.
 
-    ![](common/images/brackets-commit-003.png)
+    ![](images/300/brackets-commit-003.png)
 
 ### Push Changes - To synchronise the remote repository from the local repository
 
 - In Brackets, click on the `Push Repository` button.
 
-    ![](common/images/brackets-banner-003.png)
+    ![](images/300/brackets-banner-003.png)
 
 - Use the default settings (and if required add your username and password to the details)
 
-    ![](common/images/brackets-push-001.png)
+    ![](images/300/brackets-push-001.png)
 
 ### Pull Changes - To synchronise the local repository from the remote repository
 
 - In Brackets, click on the `Pull Repository` button.
 
-    ![](common/images/brackets-banner-002.png)
+    ![](images/300/brackets-banner-002.png)
 
 - Use the default settings (and if required add your username and password to the details)
 
-    ![](common/images/brackets-pull-001.png)
+    ![](images/300/brackets-pull-001.png)
 
-Return to the Main Page to start the labs [README.md](README.md)
+Return to the Main Page to start the labs [CloudNative300.md](CloudNative300.md)

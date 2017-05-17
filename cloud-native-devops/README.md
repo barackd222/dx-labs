@@ -39,19 +39,7 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 - Manage the API in API Platform Cloud Service
 - Consume the API in API Platform Cloud Service
 
-## Lab 1.4: Cloud Native Rapid Javascript Devlopment with node.js (Optionally)
-
-**Documentation**: [CloudNative300.md](CloudNative300.md)
-
-### Objectives
-
-- Access Developer Cloud Service
-- Import Code from external Git Repository
-- Import Project into Brackets
-- Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service
-- Add API to API Platform Cloud Service (same as Lab 200)
-
-## Lab 1.5:  Cloud Native Developer Cloud Service Administration
+## Lab 1.4:  Cloud Native Developer Cloud Service Administration
 
 **Documentation**: [CloudNative400.md](CloudNative400.md)
 
@@ -61,5 +49,16 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 - Complete Sprint
 - Run Backlog and Sprint Reports
 - Review Administrative Tasks
+
+## EXTRA - Lab 1.5: Cloud Native Rapid Javascript Devlopment with node.js (Optional - Do this lab if you want to experience merging code)
+
+**Documentation**: [CloudNative300.md](CloudNative300.md)
+
+### Objectives
+
+- Access Developer Cloud Service
+- Import Code from external Git Repository
+- Import Project into Brackets
+- Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service
 
 Return to [Lab 2](../README.md) to continue the labs.
