@@ -19,11 +19,11 @@ You will take on 3 Personas during the workshop. The **Project Manager Persona*
 
 ## Create Developer Cloud Service Project
 
-### **STEP 1 (Option 1) **: Login to your Oracle Cloud Account
+### **STEP 1 (Option 1)**: Login to your Oracle Cloud Account
 
 **IF YOU ARE USING YOUR OWN ENVIRONMENT AND YOU DO NOT HAVE A LINK TO DEVELOPER CLOUD - PLEASE FOLLOW THESE MORE DETAILED INSTRUCTIONS BEFORE CONTINUING THIS LAB [CloudLogin.md](CloudLogin.md)**
 
-### **STEP 1 (Option 2) **: Login directly to Developer Cloud Service
+### **STEP 1 (Option 2)**: Login directly to Developer Cloud Service
 
 - From any browser, go to the URL provided by your instructor. It should look something like:
     `https://developer.em2.oraclecloud.com/developer12345-iddomain1234`
