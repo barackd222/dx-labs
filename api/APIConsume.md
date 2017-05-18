@@ -90,7 +90,7 @@ In this lab, you will be the **APP Developer**.
 - If you use Firefox, use an application like REST Easy or RESTED (another REST client), go to the API URL. Use the API Gateway details provided by the instructor and add a HTTP header **apikey** with the value from Step 3.
     eg. `https://apigw.oracle.com/<your API uri>`
 
-    ![](images/api-create_app-0011.png)
+    ![](images/api-create_app-011.png)
 
 - You are now ready to move to the next lab.
 
