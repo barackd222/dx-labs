@@ -17,9 +17,11 @@ In this lab, you will be the **API Manager**.
 
 # Manage Twitter Feed API
 
+### **This section of the lab is executed by the API Manager Persona**
+
 ## Grant Access To API
 
-### **STEP 1**: Login to your API Platform Cloud Service account (if you haven't already)
+### **STEP 1**: Login to the Management Portal with your API Platform Cloud Service account (if you haven't already)
 
 - From any browser, go to the API PCS (Manageer) URL provided by your instructor:
     eg. `https://api.oracle.com/apiplatform`
@@ -28,23 +30,13 @@ In this lab, you will be the **API Manager**.
 
 - Enter your User Name and Password and click **Sign In**
 
-  **NOTE:** For this lab you will assume the role of API ***Lisa Jones***. Although you are assuming the identify of Lisa Jones, you will log into the account using the **username** provided to you by your instructor. As you progress through the workshop, you will remain logged in as a single user, but you will make “logical” changes from Lisa Jones the API Manager to other personas.
-
-    ![](images/lisa.png)
-
     ![](images/api-login-002.png)
 	
 ### **STEP 2**: Select API for you to manage (if you haven't already)
 
 - Hover over the API you created (it will highlight). Double-click on the API. This will open up the API details (configuration and runtime details). Note that down the left-hand side, there are icons reflecting the tabs to configure the API. We'll go through some of these tabs.
 
-    ![](images/api-create_app-003.png)
-	
-### **STEP 2**: Select API for you to manage (if you haven't already)
-
-- Hover over the API you created (it will highlight). Double-click on the API. This will open up the API details (configuration and runtime details). Note that down the left-hand side, there are icons reflecting the tabs to configure the API. We'll go through some of these tabs.
-
-    ![](images/api-create_app-003.png)
+    ![](images/api-create_api-003.png)
 	
 ### **STEP 3**: Configure access to manage API
 

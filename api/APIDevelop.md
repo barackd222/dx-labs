@@ -19,9 +19,11 @@ In this lab, you will be the **API Developer**.
 
 # Create Twitter Feed API
 
+### **This section of the lab is executed by the API Developer Persona**
+
 ## Create a New API
 
-### **STEP 1**: Login to your API Platform Cloud Service account
+### **STEP 1**: Login to the Management Portal with your API Platform Cloud Service account
 
 - From any browser, go to the API PCS (Manageer) URL provided by your instructor:
     eg. `https://api.oracle.com/apiplatform`
@@ -29,10 +31,6 @@ In this lab, you will be the **API Developer**.
     ![](images/api-login-001.png)
 
 - Enter your User Name and Password and click **Sign In**
-
-  **NOTE:** For this lab you will assume the role of API ***Bala Gupta***. Although you are assuming the identify of Bala Gupta, you will log into the account using the **username** provided to you by your instructor. As you progress through the workshop, you will remain logged in as a single user, but you will make “logical” changes from Bala Gupta the API Developer to other personas.
-
-    ![](images/bala.png)
 
     ![](images/api-login-002.png)
 	

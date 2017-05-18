@@ -18,9 +18,11 @@ In this lab, you will be the **APP Developer**.
 
 # Consume Twitter Feed API
 
+### **This section of the lab is executed by the Application Developer Persona**
+
 ## Consume a New API
 
-### **STEP 1**: Login to your API Platform Cloud Service account
+### **STEP 1**: Login to the Developer Portal with your API Platform Cloud Service account
 
 - From any browser, go to the API PCS (Developer) URL provided by your instructor:
     eg. `https://api.oracle.com/developers`
@@ -28,10 +30,6 @@ In this lab, you will be the **APP Developer**.
     ![](images/api-create_app-001.png)
 
 - Enter your User Name and Password and click **Sign In**
-
-  **NOTE:** For this lab you will assume the role of API ***John Dunbar***. Although you are assuming the identify of John Dunbar, you will log into the account using the **username** provided to you by your instructor. As you progress through the workshop, you will remain logged in as a single user, but you will make “logical” changes from John Dunbar the APP Developer to other personas.
-
-    ![](images/john.png)
 
     ![](images/api-create_app-002.png)
 
