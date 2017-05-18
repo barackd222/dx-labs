@@ -82,7 +82,12 @@ In this lab, you will be the **APP Developer**.
 
     ![](images/api-create_app-010.png)
 
-- Need to open a REST client ie Postman, go to the API URL. Use the API Gateway details provided by the instructor and add a HTTP header **apikey** with the value from Step 3.
+- If you use Google, use an application like Postman (a REST client), go to the API URL. Use the API Gateway details provided by the instructor and add a HTTP header **apikey** with the value from Step 3.
+    eg. `https://apigw.oracle.com/<your API uri>`
+
+    ![](images/api-create_app-005.png)
+
+- If you use Firefox, use an application like REST EAsy (another REST client) to open a REST client ie Postman, go to the API URL. Use the API Gateway details provided by the instructor and add a HTTP header **apikey** with the value from Step 3.
     eg. `https://apigw.oracle.com/<your API uri>`
 
     ![](images/api-create_app-005.png)
