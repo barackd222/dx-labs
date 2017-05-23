@@ -14,6 +14,9 @@ This is repository that contains labs material for Speed To Value Developer Expe
 + [Create a simple micro-service](cloud-native-devops/README.md)
 
 ### Lab 2 ###
++ [Expose micro-service through API Platform Cloud Service](api/README.md)
+
+### Lab 3 ###
 + [Create a simple online application](stack/README.md)
 
 ---
