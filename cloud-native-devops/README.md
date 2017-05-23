@@ -51,4 +51,4 @@ This set of labs will walk you through the Software Development Lifecycle (SDLC)
 - Import Project into Brackets
 - Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service
 
-Return to [Lab 2](../README.md) to continue the labs.
+Return to [Lab Main Page](../README.md) to continue the labs.

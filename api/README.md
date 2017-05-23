@@ -36,4 +36,4 @@ These labs will walk you through the API econonmy of Cloud Native projects, duri
 - Register the API
 - Test the API (using Postman)
 
-Return to [Lab 3](../README.md) to continue the labs.
+Return to [Lab Main Page](../README.md) to continue the labs.

@@ -310,3 +310,5 @@ Discover the FixItFast application.
 ![](images/37.fixitfast.dashboard.png)
 
 Congratulations! You have completed the Oracle Cloud Stack lab.
+
+Return to [Lab Main Page](../README.md).
