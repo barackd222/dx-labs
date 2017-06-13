@@ -1,4 +1,4 @@
-## Introduction
+﻿## Introduction
 
 This is the second of several labs that are part of the **Developer Experience workshop.** This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
 
@@ -283,4 +283,4 @@ We have now verified that the statictweets microservice has been deployed and fu
 
 - You are now done with this lab.
 
-Return to [Lab 1.3](CloudNative300.md) to continue the labs.
+Return to [Lab 1.3](CloudNative400.md) to continue the labs.
