@@ -16,6 +16,16 @@ In addition, there is a portable version of brackets. Follow the next steps if y
 
 - Start `BracketsPortable.exe` where you installed Brackets
 
+### **STEP 4:** Install Git Plugin
+
+- Open the Extensions Manager
+
+    ![](images/300/brackets-plugin-001.png)
+
+- Search for and install "Brackets Git Plugin"
+
+    ![](images/300/brackets-plugin-002.png)
+
 ### **STEP 4:** Configure git
 
 - Open the Git Settings menu (under File)
